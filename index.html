@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Kishan Maurya Web Developer MCA ">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+		<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+	</head>
+	<body>
+		<!-- Modal -->
+		<div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-notify modal-warning" role="document">
+				<!--Content--><button type="button" class="close bg-primary text-white" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true" class="white-text">&times;</span>
+				</button>
+				<div class="modal-content bg-dark">
+					<div class="modal-body">
+						<form action="" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" style="border-radius: 10px;">
+							<h2 class="w3-center">Contact Us</h2>
+							
+							<div class="w3-row w3-section">
+								<div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+								<div class="w3-rest">
+									<input class="w3-input w3-border" name="first" required="required" type="text" placeholder="First Name">
+								</div>
+							</div>
+							<div class="w3-row w3-section">
+								<div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+								<div class="w3-rest">
+									<input class="w3-input w3-border" name="last" type="text" required="required" placeholder="Last Name">
+								</div>
+							</div>
+							<div class="w3-row w3-section">
+								<div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+								<div class="w3-rest">
+									<input class="w3-input w3-border" name="email" required="required" type="text" placeholder="Email">
+								</div>
+							</div>
+							<div class="w3-row w3-section">
+								<div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+								<div class="w3-rest">
+									<input class="w3-input w3-border"  required="required" name="phone" type="text" placeholder="Phone">
+								</div>
+							</div>
+							<div class="w3-row w3-section">
+								<div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+								<div class="w3-rest">
+									<input class="w3-input w3-border" name="message" required="required" type="text" placeholder="Message">
+								</div>
+							</div>
+							<div class="w3-row w3-section text-center justify-content-center">
+								<button class="w3-btn w3-section w3-blue w3-ripple w3-padding-large" style="width:30%">Send</button>
+							</div>
+							<div class="w3-row w3-section text-center text-dark">
+								<p class="w3-wide text-dark">Pinnacle Animation</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!--/.Content-->
+			</div>
+		</div>
+		<!-- Modal -->
+		<!-- Menu -->
+		<div class="menu bg-dark text-white">
+			<!-- Search -->
+			<div class="menu_search">
+				<form action="#" id="menu_search_form" class="menu_search_form">
+					<input type="text" class="search_input" placeholder="Search Item" required="required">
+					<button class="menu_search_button"><img src="images/search.png" alt=""></button>
+				</form>
+			</div>
+			<!-- Navigation -->
+			<div class="menu_nav text-white">
+				<ul>
+					<li><a href="#Home" class="text-white">Home</a></li>
+					<li><a href="#Updates" class="text-white">Updates</a></li>
+					<li><a href="#Servises" class="text-white">Servises</a></li>
+					<li><a href="#Gallery" class="text-white">Gallery</a></li>
+					<li><a href="#Testimonial" class="text-white">Testimonial</a></li>
+					<li><a href="#About" class="text-white">About</a></li>
+					<li><a href="#Contact" class="text-white">Contact</a></li>
+				</ul>
+			</div>
+			<!-- Contact Info -->
+			<div class="menu_contact">
+				<div class="menu_phone d-flex flex-row align-items-center justify-content-center">
+					
+					<button class="w3-btn w3-metro-magenta text-white ml-4">
+					<a class="text-white" href="tel:+91-93043-52405" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call Now +91 93043 52405</a></button>
+				</div>
+				<div class="menu_social text-white">
+					<ul class="menu_social_list d-flex flex-row align-items-start justify-content-start">
+						<li>
+							<a href="https://www.facebook.com/ThePinnacleAnimation/">
+								<i class="fa fa-facebook text-white" aria-hidden="true">
+								</i>
+							</a>
+						</li>
+						<li>
+							<a href="https://pinnacleanimation.business.site/posts/1880207469118326736?hl=en-GB">
+								<i class="fa fa-youtube-play text-white" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li><a href="https://pinnacleanimation.business.site/posts/1880207469118326736?hl=en-GB">
+						<i class="fa fa-google-plus text-white" aria-hidden="true"></i></a></li>
+						<li><a href="https://pinnacleanimation.business.site/posts/5307390183422780489?hl=en-GB">
+						<i class="fa fa-instagram text-white" aria-hidden="true"></i></a></li>
+						<li><a href="https://pinnacleanimation.business.site/posts/5923365478555408513?hl=en-GB">
+						<i class="fa fa-linkedin text-white" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="super_container">
+			<!-- Header -->
+			<header class="header">
+				<div class="header_overlay"></div>
+				<div class="header_content d-flex flex-row align-items-center justify-content-start">
+					<div class="logo">
+						<a href="#">
+							<div class="d-flex flex-row align-items-center justify-content-start">
+								<div><img src="images/pic.png" alt="" width="90" height="79px"></div>
+								<div>Pinnacle Animation</div>
+							</div>
+						</a>
+					</div>
+					<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+					<nav class="main_nav">
+						<ul class="d-flex flex-row align-items-start justify-content-start">
+							<li class="active"><a href="#">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Kids</a></li>
+							<li><a href="#">Home Deco</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="header_right d-flex flex-row align-items-center justify-content-center ml-auto">
+						<!-- Search -->
+						<div class="header_search">
+							<form action="#" id="header_search_form">
+								<input type="text" class="search_input len" placeholder="Search Pinnacle Animation" required="required">
+								<button class="header_search_button"><img src="images/search.png" alt=""></button>
+							</form>
+						</div>
+						<!-- User -->
+						<div class="user">
+							<a href="#" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#orangeModalSubscription">
+								<div class="ml-2">
+									<img src="images/user.svg" alt="https://www.flaticon.com/authors/freepik">
+								</div>
+							</a>
+						</div>
+						
+						<!-- Phone -->
+						<div class="header_phone d-flex flex-row align-items-center justify-content-start">
+							<div>
+								<div class="ml-4">
+									<img src="images/phone.svg">
+								</div>
+							</div>
+							<button class="w3-btn w3-metro-magenta text-white ml-4">
+							<a class="text-white" href="tel:+91-93043-52405" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call Now +91 93043 52405</a></button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="super_container_inner">
+				<div class="super_overlay"></div>
+				<!-- Home -->
+				<div class="home" id="Home">
+					<!-- Home Slider -->
+					<div class="home_slider_container">
+						<div class="owl-carousel owl-theme home_slider">
+							
+							<!-- Slide -->
+							<div class="owl-item">
+								<div class="background_image" style="background-image:url(images/beautiful-bouquet-bridal-247295.jpg)"></div>
+								<div class="container fill_height">
+									<div class="row fill_height">
+										<div class="col fill_height">
+											<div class="home_container d-flex flex-column align-items-center justify-content-start">
+												<div class="home_content">
+													<div class="home_title w3-text text-primary">Pinnacle  Arrivals</div>
+													<div class="home_subtitle">Summer Shoot Begins</div>
+													<div class="home_items">
+														<div class="row">
+															<div class="col-sm-3 offset-lg-1">
+																<div class="home_item_side"><a href="product.html"><img src="images/wedding-dresses-fashion-character-bride-157757.jpeg" alt=""></a></div>
+															</div>
+															<div class="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
+																<div class="product home_item_large">
+																	<div class="product_tag d-flex flex-column align-items-center justify-content-center">
+																		<div>
+																			<div>from</div>
+																			<div>&#8377;499<span></span></div>
+																		</div>
+																	</div>
+																	<div class="product_image"><img src="images/accessories-adult-attractive-730055.jpg" alt=""></div>
+																	<div class="product_content">
+																		<div class="product_info d-flex flex-row align-items-start justify-content-start">
+																			<div>
+																				<div>
+																					<div class="product_name"><a href="product.html">Cool Clothing with Brown Stripes</a></div>
+																					<div class="product_category">In <a href="category.html">Category</a></div>
+																				</div>
+																			</div>
+																			<div class="ml-auto text-right">
+																				<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+																				<div class="product_price text-right">$3<span>.99</span></div>
+																			</div>
+																		</div>
+																		<div class="product_buttons">
+																			<div class="text-right d-flex flex-row align-items-start justify-content-start">
+																				<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/heart.svg" alt=""><div>+</div></div></div>
+																				</div>
+																				<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/cart_2.svg" alt=""><div>+</div></div></div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-sm-3">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-1308885 (1).jpeg" alt=""></a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="owl-item">
+								<div class="background_image" style="background-image:url(images/beautiful-bouquet-bridal-247295.jpg)"></div>
+								<div class="container fill_height">
+									<div class="row fill_height">
+										<div class="col fill_height">
+											<div class="home_container d-flex flex-column align-items-center justify-content-start">
+												<div class="home_content">
+													<div class="home_title text-primary">Popular</div>
+													<div class="home_subtitle">Summer Shoot</div>
+													<div class="home_items">
+														<div class="row">
+															<div class="col-sm-3 offset-lg-1">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-999519.jpeg" alt=""></a></div>
+															</div>
+															<div class="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
+																<div class="product home_item_large">
+																	<div class="product_tag d-flex flex-column align-items-center justify-content-center">
+																		<div>
+																			<div>from</div>
+																			<div>&#8377;499<span></span></div>
+																		</div>
+																	</div>
+																	<div class="product_image"><img src="images/pexels-photo-1446161 (1).jpeg" alt=""></div>
+																	<div class="product_content">
+																		<div class="product_info d-flex flex-row align-items-start justify-content-start">
+																			<div>
+																				<div>
+																					<div class="product_name"><a href="product.html">Cool Clothing with Brown Stripes</a></div>
+																					<div class="product_category">In <a href="category.html">Category</a></div>
+																				</div>
+																			</div>
+																			<div class="ml-auto text-right">
+																				<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+																				<div class="product_price text-right">$3<span>.99</span></div>
+																			</div>
+																		</div>
+																		<div class="product_buttons">
+																			<div class="text-right d-flex flex-row align-items-start justify-content-start">
+																				<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/heart.svg" alt=""><div>+</div></div></div>
+																				</div>
+																				<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/cart_2.svg" alt=""><div>+</div></div></div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-sm-3">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-805248.jpeg" alt=""></a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="owl-item">
+								<div class="background_image" style="background-image:url(images/beautiful-bouquet-bridal-247295.jpg)"></div>
+								<div class="container fill_height">
+									<div class="row fill_height">
+										<div class="col fill_height">
+											<div class="home_container d-flex flex-column align-items-center justify-content-start">
+												<div class="home_content">
+													<div class="home_title text-primary">Trending Bride And Groom Shoot </div>
+													<div class="home_subtitle">Summer Shoot</div>
+													<div class="home_items">
+														<div class="row">
+															<div class="col-sm-3 offset-lg-1">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-1875423 (1).jpeg" alt=""></a></div>
+															</div>
+															<div class="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
+																<div class="product home_item_large">
+																	<div class="product_tag d-flex flex-column align-items-center justify-content-center">
+																		<div>
+																			<div>from</div>
+																			<div>&#8377;499<span></span></div>
+																		</div>
+																	</div>
+																	<div class="product_image"><img src="images/pexels-photo-1777843 (1).jpeg" alt=""></div>
+																	<div class="product_content">
+																		<div class="product_info d-flex flex-row align-items-start justify-content-start">
+																			<div>
+																				<div>
+																					<div class="product_name"><a href="product.html">Cool Clothing with Brown Stripes</a></div>
+																					<div class="product_category">In <a href="category.html">Category</a></div>
+																				</div>
+																			</div>
+																			<div class="ml-auto text-right">
+																				<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+																				<div class="product_price text-right">$3<span>.99</span></div>
+																			</div>
+																		</div>
+																		<div class="product_buttons">
+																			<div class="text-right d-flex flex-row align-items-start justify-content-start">
+																				<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/heart.svg" alt=""><div>+</div></div></div>
+																				</div>
+																				<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/cart_2.svg" alt=""><div>+</div></div></div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-sm-3">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-1393475 (1).jpeg" alt=""></a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="owl-item">
+								<div class="background_image" style="background-image:url(images/beautiful-bouquet-bridal-247295.jpg)"></div>
+								<div class="container fill_height">
+									<div class="row fill_height">
+										<div class="col fill_height">
+											<div class="home_container d-flex flex-column align-items-center justify-content-start">
+												<div class="home_content">
+													<div class="home_title text-primary">Pinnacle Premium Shoot</div>
+													<div class="home_subtitle">Summer Shoot</div>
+													<div class="home_items">
+														<div class="row">
+															<div class="col-sm-3 offset-lg-1">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-1875423 (1).jpeg" alt=""></a></div>
+															</div>
+															<div class="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
+																<div class="product home_item_large">
+																	<div class="product_tag d-flex flex-column align-items-center justify-content-center">
+																		<div>
+																			<div>from</div>
+																			<div>&#8377;499<span></span></div>
+																		</div>
+																	</div>
+																	<div class="product_image"><img src="images/pexels-photo-1560303.jpeg" alt=""></div>
+																	<div class="product_content">
+																		<div class="product_info d-flex flex-row align-items-start justify-content-start">
+																			<div>
+																				<div>
+																					<div class="product_name"><a href="product.html">Cool Clothing with Brown Stripes</a></div>
+																					<div class="product_category">In <a href="category.html">Category</a></div>
+																				</div>
+																			</div>
+																			<div class="ml-auto text-right">
+																				<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+																				<div class="product_price text-right">$3<span>.99</span></div>
+																			</div>
+																		</div>
+																		<div class="product_buttons">
+																			<div class="text-right d-flex flex-row align-items-start justify-content-start">
+																				<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/heart.svg" alt=""><div>+</div></div></div>
+																				</div>
+																				<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+																					<div><div><img src="images/cart_2.svg" alt=""><div>+</div></div></div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-sm-3">
+																<div class="home_item_side"><a href="product.html"><img src="images/pexels-photo-1777843.jpeg" alt=""></a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="home_slider_nav home_slider_nav_prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+						<div class="home_slider_nav home_slider_nav_next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+						<!-- Home Slider Dots -->
+						
+						<div class="home_slider_dots_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="home_slider_dots">
+											<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-center justify-content-center">
+												<li class="home_slider_custom_dot active">01</li>
+												<li class="home_slider_custom_dot">02</li>
+												<li class="home_slider_custom_dot">03</li>
+												<li class="home_slider_custom_dot">04</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Products -->
+				<div class="products" id="Gallery">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 offset-lg-3">
+								<div class="section_title text-center" style="border-bottom: 2px solid #333; ">Popular Pinnacle Gallery </div>
+							</div>
+						</div>
+						<div class="row page_nav_row">
+							<div class="col">
+								<div class="page_nav">
+									<ul class="d-flex flex-row align-items-start justify-content-center">
+										<li class="active"><a href="#Gallery">Women</a></li>
+										<li><a href="#Gallery">Men</a></li>
+										<li><a href="#Gallery">Kids</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row products_row">
+							
+							<!-- Product -->
+							<div class="col-xl-4 col-md-6">
+								<div class="product">
+									<div class="product_image">
+									<img src="images/pexels-photo-1875423.jpeg" alt=""></div>
+									<div class="product_content">
+										<div class="product_info d-flex flex-row align-items-start justify-content-start">
+											<div>
+												<div>
+													<div class="product_name"><a href="product.html">Cool Shoot Bride & Grooms</a></div>
+													<div class="product_category">In <a href="category.html">Category</a></div>
+												</div>
+											</div>
+											<div class="ml-auto text-right">
+												<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+												
+											</div>
+										</div>
+										<div class="product_buttons">
+											<div class="text-right d-flex flex-row align-items-start justify-content-start">
+												<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+													<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+												</div>
+												<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+													<div>
+														<div>
+															<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+															<div class="ml-3 mb-3 text-right">
+																<div class="product_price text-right">490
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Product -->
+							<div class="col-xl-4 col-md-6">
+								<div class="product">
+									<div class="product_image"><img src="images/pexels-photo-1777843 (1).jpeg" alt=""></div>
+									<div class="product_content">
+										<div class="product_info d-flex flex-row align-items-start justify-content-start">
+											<div>
+												<div>
+													<div class="product_name"><a href="product.html">Cool Shoot Bride & Grooms</a></div>
+													<div class="product_category">In <a href="category.html">Category</a></div>
+												</div>
+											</div>
+											<div class="ml-auto text-right">
+												<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+												
+											</div>
+										</div>
+										<div class="product_buttons">
+											<div class="text-right d-flex flex-row align-items-start justify-content-start">
+												<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+													<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+												</div>
+												<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+													<div>
+														<div>
+															<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+															<div class="ml-3 mb-3 text-right">
+																<div class="product_price text-right">490
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Product -->
+							<div class="col-xl-4 col-md-6">
+								<div class="product">
+									<div class="product_image"><img src="images/pexels-photo-836867 (1).jpeg" alt=""></div>
+									<div class="product_content">
+										<div class="product_info d-flex flex-row align-items-start justify-content-start">
+											<div>
+												<div>
+													<div class="product_name">
+														<a href="product.html">Cool Shoot Bride & Grooms</a></div>
+														<div class="product_category">In <a href="category.html">Category</a></div>
+													</div>
+												</div>
+												<div class="ml-auto text-right">
+													<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+													
+												</div>
+											</div>
+											<div class="product_buttons">
+												<div class="text-right d-flex flex-row align-items-start justify-content-start">
+													<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+														<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+													</div>
+													<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+														<div>
+															<div>
+																<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+																<div class="ml-3 mb-3 text-right">
+																	<div class="product_price text-right">490
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Product -->
+								<div class="col-xl-4 col-md-6">
+									<div class="product">
+										<div class="product_image">
+										<img src="images/pexels-photo-1875422.jpeg" alt=""></div>
+										<div class="product_content">
+											<div class="product_info d-flex flex-row align-items-start justify-content-start">
+												<div>
+													<div>
+														<div class="product_name"><a href="product.html">Cool Shoot pretty Girl</a></div>
+														<div class="product_category">In <a href="category.html">Category</a></div>
+													</div>
+												</div>
+												<div class="ml-auto text-right">
+													<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+													
+												</div>
+											</div>
+											<div class="product_buttons">
+												<div class="text-right d-flex flex-row align-items-start justify-content-start">
+													<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+														<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+													</div>
+													<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+														<div>
+															<div>
+																<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+																<div class="ml-3 mb-3 text-right">
+																	<div class="product_price text-right">490
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Product -->
+								<div class="col-xl-4 col-md-6">
+									<div class="product">
+										<div class="product_image">
+										<img src="images/pexels-photo-1308885.jpeg" alt=""></div>
+										<div class="product_content">
+											<div class="product_info d-flex flex-row align-items-start justify-content-start">
+												<div>
+													<div>
+														<div class="product_name"><a href="product.html">Cool Shoot Pretty Girl</a></div>
+														<div class="product_category">In <a href="category.html">Category</a></div>
+													</div>
+												</div>
+												<div class="ml-auto text-right">
+													<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+													
+												</div>
+											</div>
+											<div class="product_buttons">
+												<div class="text-right d-flex flex-row align-items-start justify-content-start">
+													<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+														<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+													</div>
+													<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+														<div>
+															<div>
+																<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+																<div class="ml-3 mb-3 text-right">
+																	<div class="product_price text-right">490
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Product -->
+								<div class="col-xl-4 col-md-6">
+									<div class="product">
+										<div class="product_image">
+										<img src="images/pexels-photo-1560303.jpeg" alt=""></div>
+										<div class="product_content">
+											<div class="product_info d-flex flex-row align-items-start justify-content-start">
+												<div>
+													<div>
+														<div class="product_name"><a href="product.html">Cool Cool Shoot Bride & Grooms</a></div>
+														<div class="product_category">In <a href="category.html">Category</a></div>
+													</div>
+												</div>
+												<div class="ml-auto text-right">
+													<div class="rating_r rating_r_4 home_item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+													
+												</div>
+											</div>
+											<div class="product_buttons">
+												<div class="text-right d-flex flex-row align-items-start justify-content-start">
+													<div class="product_button product_fav text-center d-flex flex-column align-items-center justify-content-center">
+														<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+													</div>
+													<div class="product_button product_cart text-center d-flex flex-column align-items-center justify-content-center">
+														<div>
+															<div>
+																<img src="images/rupee-sign-solid.svg" width="50" height="40" alt="">
+																<div class="ml-3 mb-3 text-right">
+																	<div class="product_price text-right">490
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row load_more_row">
+								<div class="col">
+									<div class="button load_more ml-auto mr-auto">
+										<a href="#">load more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!---Updates--->
+					
+					<!---  Services--->
+					<div class="features" id="Servises">
+						<div class="container">
+							<div class="row  justify-content-center">
+								<div class="col-lg-3">
+									<div class="section_title  text-center  mb-5" style="border-bottom: 5px solid #333;"> Services </div>
+								</div>
+							</div>
+							<div class="row  justify-content-center">
+								<div class="col-lg-3">
+									<div class="text-center   mb-5">
+										<h3 class="text-dark font-weight-bold"> Photography</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-body">
+											<h4 class="font-weight-bold">Basic Pack</h4>
+											<h4 class="">&#8377;2,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-body">
+											<h4 class="font-weight-bold">Silver Pack</h4>
+											<h4 class="">&#8377;4,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Standered Pack</h4>
+											<h4 class="">&#8377;6,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark mt-5">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Gold Pack</h4>
+											<h4 class="">&#8377;7,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">platinum Pack</h4>
+											<h4 class="">&#8377;9,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row  justify-content-center mt-4">
+								<div class="col-lg-3">
+									<div class="text-center  mb-5">
+										<h3 class="text-dark font-weight-bold"> Videography</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Basic Pack</h4>
+											<h4 class="">&#8377;2,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Silver Pack</h4>
+											<h4 class="">&#8377;4,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col ">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Standered Pack</h4>
+											<h4 class="">&#8377;6,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark mt-5">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Gold Pack</h4>
+											<h4 class="">&#8377;2,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Platinum Pack</h4>
+											<h4 class="">&#8377;9,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row  justify-content-center mt-4">
+								<div class="col-lg-3">
+									<div class="text-center  mb-5">
+										<h3 class="text-dark font-weight-bold"> Video Mixing</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Basic Pack</h4>
+											<h4 class="">&#8377;1,500.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Silver Pack</h4>
+											<h4 class="">&#8377;2,000.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Standered Pack</h4>
+											<h4 class="">&#8377;1,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row text-dark mt-5">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Gold Pack</h4>
+											<h4 class="">&#8377;1,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="card">
+										<div class="card-header">
+											<h4 class="font-weight-bold">Platinum Pack</h4>
+											<h4 class="">&#8377;1,999.00</h4>
+											<p class="mr-5 text-dark">
+												For 1 day Wedding Photography with<br> Premium Wedding Photo Album, No. of page:24,<br> Size: XL with Photo Covered
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row  justify-content-center">
+								<div class="col-lg-8">
+									<div class="text-center mt-5 ml-4 ">
+										<button class="w3-btn w3-metro-magenta mt-5">Write A Review</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Boxes -->
+					<div class="features mt-5" id="Testimonial">
+						<div class="container">
+							<div class="row  justify-content-center">
+								<div class="col-lg-3">
+									<div class="section_title  text-center  mb-5" style="border-bottom: 5px solid #333;"> Testimonial </div>
+								</div>
+							</div>
+							<div class="row text-dark">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col">
+									<div class="rating_r rating_r_4 home_item_rating mb-3">
+										<i></i><i></i><i></i><i></i><i></i><span class="text-dark mb-3 ml-4">two month ago</span>
+									</div>
+									<p class="ml-5 mr-5 text-dark mb-3">
+										"Book your appointment with Pinnacle Animation and get Indian festivals Holi  offers !"
+									</p>
+									- Kishan Maurya
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="rating_r rating_r_4 home_item_rating mb-3">
+										<i></i><i></i><i></i><i></i><i></i><span class="text-dark mb-3 ml-4">a month ago</span>
+									</div>
+									<p class="ml-5 mr-5 text-dark mb-3">
+										"Book your appointment with Pinnacle Animation and get Republic Day offers !"
+									</p>
+									- Rakesh Chaudhary
+								</div>
+								<div class="col-lg-4 feature_col">
+									<div class="rating_r rating_r_4 home_item_rating mb-3">
+										<i></i><i></i><i></i><i></i><i></i><span class="text-dark mb-3 ml-4">a month ago</span>
+									</div>
+									<p class="ml-5 mr-5 text-dark mb-3">
+										"Book your appointment with Pinnacle Animation and get New Year offers !"
+									</p>
+									- Abhishek Singh
+								</div>
+							</div>
+							<div class="row  justify-content-center">
+								<div class="col-lg-8">
+									<div class="text-center mt-5 ml-4 ">
+										<button class="w3-btn w3-metro-magenta mt-5">Write A Review</button>
+										<button class="w3-btn w3-metro-magenta ml-4 mt-5">Read More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Features -->
+					<div class="features" id="About">
+						<div class="container">
+							<div class="row  justify-content-center">
+								<div class="col-lg-3">
+									<div class="section_title  text-center  mb-5" style="border-bottom: 5px solid #333;"> ABOUT US </div>
+								</div>
+							</div>
+							<div class="row">
+								<!-- Feature -->
+								<div class="col-lg-12 feature_col">
+									<p class="ml-5 mr-5 text-dark">
+										Hey reader! We are glad to have you here. We are pinnacle animation. A new age creative animation company, based in Ranchi. Pinnacle animation was founded in Ranchi, India in 2018, pinnacle animation is an animation company. Since opening in January 2019, pinnacle animation has been proud to serve the pinnacle animation community. We are specializing in modern and romantic wedding photography. Our style is more journalistic in theme as we love to document every minute of your special day. We ' re committed to not only providing quality products and service but going above and beyond to ensure our customers are completely satisfied. Our dedicated team will be happy to offer support round the clock in managing the digital area. We make sure to go the extra miles to please all of our clients and leave them with only stunning photographs. We welcome you to look through our site to see all we have to offer. Pinnacle animation provides you with a better platform to book your professional photographers and videographers for your wedding photo album and wedding videography. In addition, we believe in bidding farewell to all your stress and handle the minute details of your project starting from the planning phase until the moment of execution. We share a relationship of mutual respect and understanding. We simply love what we do and therefore put our heart and soul in it.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="features" id="Contact">
+						<div class="container">
+							<div class="row  justify-content-center">
+								<div class="col-lg-3">
+									<div class="section_title  text-center  mb-5" style="border-bottom: 5px solid #333;"> Contact </div>
+								</div>
+							</div>
+							<div class="row text-dark">
+								<!-- Feature -->
+								<div class="col-lg-4 feature_col w3-btn">
+									<h2 class="font-weight-bold">CONTACT</h2>
+									<h4 class="mt-4">
+									<button class="w3-btn w3-metro-magenta text-white ml-4">
+									<a class="text-white" href="tel:+91-93043-52405" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call Now +91 93043 52405</a></button>
+									</h4>
+									<p class="mt-4 text-dark">
+										+093043 52405
+									</p>
+								</div>
+								<div class="col-lg-4 feature_col w3-btn">
+									<h2 class="font-weight-bold">ADDRESS</h2>
+									<h4 class="mt-4">
+									<a class="w3-btn w3-metro-magenta" href="https://www.google.com/maps/dir//Pinnacle+Animation/@23.9198159,84.189124,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x398b8312c7936859:0xd5a88b832d87620f!2m2!1d84.2591644!2d23.9198318">GET DIRECTION</a>
+									</h4>
+									<p class="mr-5 text-dark ml-5 mb-3">
+										Pinnacle Animation<br>
+										Satbarwa, Jharkhand 822126<br>
+										India
+									</p>
+								</div>
+								<div class="col-lg-4 feature_col w3-btn">
+									<h2 class="font-weight-bold">TIMMING</h2>
+									
+									<p class="mr-5 text-dark">
+										<ul class="mb-4 text-dark">
+											<li>Mon:	9:00 am – 8:00 pm</li>
+											<li>Tue:	9:00 am – 8:00 pm</li>
+											<li>Wed:	9:00 am – 8:00 pm</li>
+											<li>Thu:	9:00 am – 8:00 pm</li>
+											<li>Fri:	9:00 am – 8:00 pm</li>
+											<li>Sat:	9:00 am – 8:00 pm</li>
+											<li>Sun:	9:00 am – 8:00 pm</li>
+										</ul>
+									</p>
+								</div>
+								<div class="row mt-4">
+									<div class="col-lg-12 feature_col ml-3">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.1474628097944!2d84.25697571498458!3d23.919831784506123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398b8312c7936859%3A0xd5a88b832d87620f!2sPinnacle+Animation!5e0!3m2!1sen!2sin!4v1551710563553" style="border: 5px solid #ccc;" width="1100" height="250" frameborder="0"  allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row  justify-content-center">
+								<div class="col-lg-8">
+									<div class="text-center mt-5 ml-4 ">
+										<button class="w3-btn w3-metro-magenta mt-5">Write A Review</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Footer -->
+					<footer class="footer">
+						<div class="footer_content">
+							<div class="container">
+								<div class="row">
+									
+									<!-- About -->
+									<div class="col-lg-4 footer_col">
+										<div class="footer_about">
+											<div class="footer_logo">
+												<a href="#">
+													<div class="d-flex flex-row align-items-center justify-content-start">
+														<div class="footer_logo_icon"><img src="images/pic.png" alt="" width="90" height="79"></div>
+														<div>Pinnacle Animation</div>
+													</div>
+												</a>
+											</div>
+											<div class="footer_about_text">
+												<p class="text-dark">Hey reader! We are glad to have you here. We are pinnacle animation. A new age creative animation company, based in Ranchi. Pinnacle animation was founded in Ranchi, India in 2018, pinnacle animation is an animation company. </p>
+												<h3 class="mt-5">Contact-</h3>
+												<button class="btn btn-primary text-white mt-3 btn-lg ml-4">
+												<a class="text-white" href="tel:+91-93043-52405" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call Now +91 93043 52405</a></button>
+											</div>
+										</div>
+									</div>
+									<!-- Footer Links -->
+									<div class="col-lg-4 footer_col">
+										<div class="footer_menu">
+											<div class="footer_title">Support</div>
+											<ul class="footer_list">
+												<li>
+													<a href="#"><div>Customer Service<div class="footer_tag_1">online now</div></div></a>
+												</li>
+												<li>
+													<a href="#"><div>Return Policy</div></a>
+												</li>
+												<li>
+													<a href="#"><div>Terms and Conditions</div></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<!-- Footer Contact -->
+									<div class="col-lg-4 footer_col">
+										<div class="footer_contact">
+											<div class="footer_title">Stay in Touch</div>
+											<div class="newsletter">
+												<form action="#" id="newsletter_form" class="newsletter_form">
+													<input type="email" class="newsletter_input" placeholder="Subscribe to our Newsletter" required="required">
+													<button class="newsletter_button">+</button>
+												</form>
+											</div>
+											<div class="footer_social">
+												<div class="footer_title">Social</div>
+												<ul class="footer_social_list d-flex flex-row align-items-start justify-content-start">
+													<li><a href="https://www.facebook.com/ThePinnacleAnimation/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="https://pinnacleanimation.business.site/posts/1880207469118326736?hl=en-GB"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+													<li><a href="https://pinnacleanimation.business.site/posts/1880207469118326736?hl=en-GB"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													<li><a href="https://pinnacleanimation.business.site/posts/5307390183422780489?hl=en-GB"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+													<li><a href="https://pinnacleanimation.business.site/posts/5923365478555408513?hl=en-GB"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer_bar bg-dark text-white">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="footer_bar_content d-flex flex-md-row flex-column align-items-center justify-content-start">
+											<nav class="footer_nav ml-md-auto order-md-2 order-1 text-white">
+												<ul class="d-flex flex-row align-items-center justify-content-start text-white">
+													<li><a href="#Home" class="text-white">Home</a></li>
+													<li><a href="#Updates" class="text-white">Updates</a></li>
+													<li><a href="#Servises" class="text-white">Servises</a></li>
+													<li><a href="#Gallery" class="text-white">Gallery</a></li>
+													<li><a href="#Testimonial" class="text-white">Testimonial</a></li>
+													<li><a href="#About" class="text-white">About</a></li>
+													<li><a href="#Contact" class="text-white">Contact</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer_bar bg-dark text-white">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="footer_bar_content d-flex flex-md-row flex-column align-items-center justify-content-center">
+											<div class="copyright order-md-1 order-2 text-white text-center">
+												Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://pinnacleanimation.business.site/" target="_blank">Pinnacle Animation</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+				
+			</div>
+			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+			<script src="js/jquery-3.2.1.min.js"></script>
+			<script src="styles/bootstrap-4.1.2/popper.js"></script>
+			<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+			<script src="plugins/greensock/TweenMax.min.js"></script>
+			<script src="plugins/greensock/TimelineMax.min.js"></script>
+			<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+			<script src="plugins/greensock/animation.gsap.min.js"></script>
+			<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+			<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+			<script src="plugins/easing/easing.js"></script>
+			<script src="plugins/progressbar/progressbar.min.js"></script>
+			<script src="plugins/parallax-js-master/parallax.min.js"></script>
+			<script src="js/custom.js"></script>
+
+
+			
+			<script src="lib/jquery/jquery.min.js"></script>
+			<script src="lib/jquery/jquery-migrate.min.js"></script>
+			<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<script src="lib/easing/easing.min.js"></script>
+			<script src="lib/superfish/hoverIntent.js"></script>
+			<script src="lib/superfish/superfish.min.js"></script>
+			<script src="lib/wow/wow.min.js"></script>
+			<script src="lib/waypoints/waypoints.min.js"></script>
+			<script src="lib/counterup/counterup.min.js"></script>
+			<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+			<script src="lib/isotope/isotope.pkgd.min.js"></script>
+			<script src="lib/lightbox/js/lightbox.min.js"></script>
+			<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+		</body>
+	</html>
